@@ -30,7 +30,7 @@ The committed notebook includes executed cells and recorded outputs from these e
 
 | Path | Description |
 | --- | --- |
-| `GASergio_Daniel.ipynb` | Spanish-language coursework notebook containing the explanation, implementation, plots, experiments, and saved outputs |
+| `coursework/genetic-algorithms/GASergio_Daniel.ipynb` | Spanish-language coursework module notebook containing the explanation, implementation, plots, experiments, and saved outputs |
 | `LICENSE` | Repository license |
 
 ## Requirements and reproducibility
@@ -44,10 +44,10 @@ The notebook uses:
 
 The standard-library modules `math` and `random` are also used. No dependency manifest is currently included, so the versions used for the original execution are not recorded.
 
-To open the notebook after installing those general-purpose dependencies:
+From the repository root, open the notebook after installing those general-purpose dependencies:
 
 ```bash
-jupyter notebook GASergio_Daniel.ipynb
+jupyter notebook coursework/genetic-algorithms/GASergio_Daniel.ipynb
 ```
 
 ### Important: external model dependency
